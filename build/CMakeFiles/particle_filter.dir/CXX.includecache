@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/schroeder/Documents/Workspaces/Udacity/Self Driving Car Engineer/2 Sensor Fusion Localization Control/Projects/ParticleFilter/carnd_t2_particle_filter/src/helper_functions.h
+sstream
+-
+fstream
+-
+math.h
+-
+vector
+-
+map.h
+/Users/schroeder/Documents/Workspaces/Udacity/Self Driving Car Engineer/2 Sensor Fusion Localization Control/Projects/ParticleFilter/carnd_t2_particle_filter/src/map.h
+
+/Users/schroeder/Documents/Workspaces/Udacity/Self Driving Car Engineer/2 Sensor Fusion Localization Control/Projects/ParticleFilter/carnd_t2_particle_filter/src/map.h
+
+/Users/schroeder/Documents/Workspaces/Udacity/Self Driving Car Engineer/2 Sensor Fusion Localization Control/Projects/ParticleFilter/carnd_t2_particle_filter/src/particle_filter.cpp
+random
+-
+algorithm
+-
+iostream
+-
+numeric
+-
+math.h
+-
+iostream
+-
+sstream
+-
+string
+-
+iterator
+-
+particle_filter.h
+/Users/schroeder/Documents/Workspaces/Udacity/Self Driving Car Engineer/2 Sensor Fusion Localization Control/Projects/ParticleFilter/carnd_t2_particle_filter/src/particle_filter.h
+
+/Users/schroeder/Documents/Workspaces/Udacity/Self Driving Car Engineer/2 Sensor Fusion Localization Control/Projects/ParticleFilter/carnd_t2_particle_filter/src/particle_filter.h
+helper_functions.h
+/Users/schroeder/Documents/Workspaces/Udacity/Self Driving Car Engineer/2 Sensor Fusion Localization Control/Projects/ParticleFilter/carnd_t2_particle_filter/src/helper_functions.h
+random
+-
+
