@@ -27,7 +27,7 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 
 	num_particles = 80;
 
-	// "make some noise^^"
+	// Create gaussian distribution
 	normal_distribution<double> nd_x(x, std[0]);
 	normal_distribution<double> nd_y(y, std[1]);
 	normal_distribution<double> nd_t(theta, std[2]);
@@ -73,7 +73,7 @@ void ParticleFilter::prediction(double delta_t, double std_pos[], double velocit
 			particles[i].theta += delta_t * yaw_rate;
 		}
 
-		// The Beastie Boys are "make some noise" ^^
+		// The Beastie Boys - "Make Some Noise" ^^
 		particles[i].x += nd_x(random_gen);
 		particles[i].y += nd_y(random_gen);
 		particles[i].theta += nd_t(random_gen);
